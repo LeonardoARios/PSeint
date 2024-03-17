@@ -1,0 +1,15 @@
+Algoritmo ejercicio03
+	//A partir de una conocida cantidad de metros que el usuario ingresa a través del teclado se
+	//debe obtener su equivalente en centímetros, en milímetros y en pulgadas.
+	//Ayuda: 1 pulgada equivale a 2.54 centímetros.
+	
+	Escribir "Coloque la medida en metros (m) para tener su equivalente en:  "
+	Leer medidaMetros
+	
+	centimetros = medidaMetros*100
+	milimetros = medidaMetros*1000
+	pulgadas = ((medidaMetros*100)/2.54)
+	
+	Escribir "Los equivalentes a las medidas que ingresó es:  ", centimetros,"cm  ",milimetros,"mm ", pulgadas, "inch"
+	
+FinAlgoritmo
